@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "CorePackage",
+    defaultLocalization: "en",
     platforms: [
         .iOS(.v14)
     ],
@@ -26,7 +27,9 @@ let package = Package(
             name: "CorePackage",
             dependencies: [
                 .product(name: "Realm", package: "realm-swift")
-            ]),
+            ],
+            resources: [.process("Resources")]
+        ),
         .testTarget(
             name: "CorePackageTests",
             dependencies: ["CorePackage"]),

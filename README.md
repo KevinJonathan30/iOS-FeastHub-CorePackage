@@ -1,3 +1,3 @@
 # CorePackage
 
-A description of this package.
+A package required for FeastHub app.
