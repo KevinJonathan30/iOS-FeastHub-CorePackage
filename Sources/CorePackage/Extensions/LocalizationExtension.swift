@@ -8,8 +8,8 @@
 import Foundation
 
 extension String {
-    public func localized(identifier: String = "am.dx.kevinjonathan.CorePackage") -> String {
-        let bundle = Bundle(identifier: identifier) ?? .main
+    public func localized() -> String {
+        let bundle = Bundle.module ?? .main
         return bundle.localizedString(forKey: self, value: nil, table: nil)
     }
 }
