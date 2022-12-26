@@ -16,6 +16,8 @@
 "cancel" = "Cancel";
 "submit" = "Submit";
 "ok" = "OK";
+"view_detail" = "View Detail";
+"delete_favorite" = "Delete Favorite";
 
 // MARK: Detail
 "detail_title" = "Detail";

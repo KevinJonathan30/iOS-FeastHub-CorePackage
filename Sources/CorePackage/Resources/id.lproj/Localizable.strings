@@ -16,6 +16,8 @@
 "cancel" = "Batal";
 "submit" = "Kirim";
 "ok" = "OK";
+"view_detail" = "Lihat Detail";
+"delete_favorite" = "Hapus Favorit";
 
 // MARK: Detail
 "detail_title" = "Detail";
